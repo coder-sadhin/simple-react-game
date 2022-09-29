@@ -9,7 +9,7 @@ const Activity = (props) => {
     const brackTimeFromStorage = localStorage.getItem('brackTime');
     const brackTime = (JSON.parse(brackTimeFromStorage));
     // console.log(brackTime);
-    const [btnValue, setBtnValue] = useState([0]);
+    const [btnValue, setBtnValue] = useState([brackTime]);
 
     // setBtnValue();
     //handlar for brack section
