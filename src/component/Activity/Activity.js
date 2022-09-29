@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Author from '../Author/Author';
 import Brack from '../Brack/Brack';
 import GameTime from '../GameTime/GameTime';

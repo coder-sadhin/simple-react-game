@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import Activity from './component/Activity/Activity';
+import Blogs from './component/Blogs/Blogs';
 import Games from './component/Games/Games';
 import Header from './component/Header/Header';
 
@@ -29,23 +30,28 @@ function App() {
 
   // console.log(game);
   return (
-    <div className='main-section'>
-      {/* rightside section  */}
-      <div className='leftside'>
-        <Header></Header>
-        <div className='game-container'>
-          {
-            games.map(game => <Games
-              key={game.id}
-              game={game}
-              addToList={addToList}
-            ></Games>)
-          }
+    <div>
+      <div className='main-section'>
+        {/* rightside section  */}
+        <div className='leftside'>
+          <Header></Header>
+          <div className='game-container'>
+            {
+              games.map(game => <Games
+                key={game.id}
+                game={game}
+                addToList={addToList}
+              ></Games>)
+            }
+          </div>
+        </div>
+        {/* rightside section  */}
+        <div className='activity-side'>
+          <Activity time={times}></Activity>
         </div>
       </div>
-      {/* rightside section  */}
-      <div className='activity-side'>
-        <Activity time={times}></Activity>
+      <div>
+        <Blogs></Blogs>
       </div>
     </div>
   );
