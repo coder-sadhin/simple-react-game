@@ -1,0 +1,35 @@
+.author-container {
+    line-height: 1;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+
+}
+
+.author img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.author div {
+    line-height: 1;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: azure;
+    border: 0;
+    border-radius: 10px;
+    line-height: 0.5;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.details div {
+    text-align: center;
+}

@@ -10,7 +10,7 @@
   {
     "id": "game-2-cricket",
     "name": "CRICKET",
-    "details": "There is a consensus of expert opinion that cricket may have been invented during Saxon or Norman times by children living in the Weald,",
+    "details": "There is a consensus of expert opinion that cricket may have been invented during Saxon or Norman times by children",
     "time": 180,
     "age": "12+",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN_ipRiIVi4nl4LmjSG4nNb1RY7qqj8C72BA&usqp=CAU"
@@ -34,7 +34,7 @@
   {
     "id": "game-5-badminton",
     "name": "BADMINTON",
-    "details": "Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms",
+    "details": "Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger",
     "time": 30,
     "age": "12+",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkAXBTRjg5KBGrk57iDh8LQHS2DlcMc0u5TA&usqp=CAU"
@@ -42,7 +42,7 @@
   {
     "id": "game-6-volleyball",
     "name": "VOLLEYBALL",
-    "details": "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding",
+    "details": "Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points",
     "time": 40,
     "age": "12+",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS524NxBjwUjpihXswZ-ykd4HkdEvPsfSn3Ng&usqp=CAU"
@@ -50,7 +50,7 @@
   {
     "id": "game-7-coc",
     "name": "MOBILE GAME: CLASH OF CLANS",
-    "details": "oin the international fray that is Clash of Clans. Customize your village, build an army and crush your opponents. Like using friendship to strike fear",
+    "details": "oin the international fray that is Clash of Clans. Customize your village, build an army and crush your opponents.",
     "time": 3,
     "age": "12+",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx1EGoigmYBGDHGxx548BP08vZK6_CHZrgsQ&usqp=CAU"
@@ -58,7 +58,7 @@
   {
     "id": "game-8-freefire",
     "name": "MOBILE GAME: FREEFIRE",
-    "details": "Free Fire, the world-famous survival shooter game available on mobile. Each 10-minute game places you on a remote island where you are pit against 49 other",
+    "details": "Free Fire, the world-famous survival shooter game available on mobile. Each 10-minute game places you on a remote ",
     "time": 20,
     "age": "18+",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP3QZ7Z15h-GgjlZQiyPAFYfct8TB0E1o44A&usqp=CAU"
@@ -66,7 +66,7 @@
   {
     "id": "game-9-pubg",
     "name": "MOBILE GAME: PUBG",
-    "details": "PUBG: BATTLEGROUNDS for free. Land on strategic locations, loot weapons and supplies, and survive to become the last team standing",
+    "details": "PUBG: BATTLEGROUNDS for free. Land on strategic locations, loot weapons and supplies, and survive to become the last team",
     "time": 30,
     "age": "18+",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkCKRD70NTvPOsjMxPaADTCCY6XgHZ2JaKCA&usqp=CAU"

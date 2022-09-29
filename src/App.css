@@ -42,9 +42,45 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 20px;
+  background-color: aqua;
+
 }
 
 .leftside {
   width: 80%;
   margin: 30px auto;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.activity-side {
+  background-color: rgb(215, 238, 250);
+  width: 350px;
+}
+
+@media screen and (max-width:1100px) {
+  .game-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width:680px) {
+  .game-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .activity-side {
+    margin-left: 50px;
+    width: 270px;
+    border: 0;
+    border-radius: 10px;
+  }
+
+  .main-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
