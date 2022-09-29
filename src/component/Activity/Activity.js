@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Author from '../Author/Author';
 import Brack from '../Brack/Brack';
 import GameTime from '../GameTime/GameTime';
@@ -6,14 +6,18 @@ import './Activity.css'
 
 const Activity = (props) => {
     const { time } = props;
-    // console.log(time)
-    const [brackTime, setBrackTime] = useState([0]);
+    const brackTimeFromStorage = localStorage.getItem('brackTime');
+    const brackTime = (JSON.parse(brackTimeFromStorage));
+    // console.log(brackTime);
+    const [btnValue, setBtnValue] = useState([0]);
+
+    // setBtnValue();
     //handlar for brack section
-    const [btnValue, setBtnValue] = useState([]);
     const handleBtnValue = (value) => {
+        localStorage.setItem('brackTime', JSON.stringify(value));
         setBtnValue(value)
     }
-    console.log(btnValue)
+    // console.log(btnValue)
 
     return (
         <div className='activity'>
