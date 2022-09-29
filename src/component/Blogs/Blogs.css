@@ -19,11 +19,12 @@
 }
 
 .blog-title {
+    margin-top: -20px;
+    margin-bottom: -20px;
     color: blue;
     text-align: center;
     background-color: aqua;
     padding: 20px;
-    width: 100%;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
